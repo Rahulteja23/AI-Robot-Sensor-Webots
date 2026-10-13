@@ -1,0 +1,19 @@
+{
+  "result": "MISSION SUCCESS - goal reached without collision",
+  "success": true,
+  "mission": {
+    "start": "Ward 205 (Floor 2)",
+    "goal": "Surgeon Office (Floor 3)",
+    "seed": 12
+  },
+  "time_to_goal_s": 115.4,
+  "path_length_m": 7.342,
+  "planned_route_m": 7.43,
+  "floors": [
+    2,
+    3
+  ],
+  "collisions": 0,
+  "min_clearance_cm": 2.23,
+  "timestamp": "2026-10-11 07:23:20"
+}

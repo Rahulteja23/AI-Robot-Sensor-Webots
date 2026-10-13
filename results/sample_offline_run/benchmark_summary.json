@@ -1,0 +1,30 @@
+{
+  "A full system": {
+    "runs": 20,
+    "success": 20,
+    "collisions": 0,
+    "mean_time_s": 74.5,
+    "closest_cm": 2.0
+  },
+  "B without safety layer": {
+    "runs": 20,
+    "success": 20,
+    "collisions": 0,
+    "mean_time_s": 71.9,
+    "closest_cm": 2.2
+  },
+  "C stress: nobody brakes": {
+    "runs": 20,
+    "success": 20,
+    "collisions": 0,
+    "mean_time_s": 72.1,
+    "closest_cm": 0.7
+  },
+  "D stress, without layer": {
+    "runs": 20,
+    "success": 20,
+    "collisions": 0,
+    "mean_time_s": 70.2,
+    "closest_cm": 1.0
+  }
+}

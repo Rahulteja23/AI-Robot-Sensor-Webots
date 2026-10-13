@@ -1,0 +1,16 @@
+{
+  "train": 2775,
+  "test": 1190,
+  "models": {
+    "Random Forest": {
+      "accuracy": 0.8638655462184874,
+      "macro_f1": 0.7464606670302553,
+      "stop_recall": null
+    },
+    "SVM (RBF, C=1)": {
+      "accuracy": 0.8512605042016806,
+      "macro_f1": 0.5549586066896541,
+      "stop_recall": null
+    }
+  }
+}

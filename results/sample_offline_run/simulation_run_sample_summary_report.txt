@@ -1,0 +1,35 @@
+============================================================
+SIMULATION SUMMARY REPORT
+============================================================
+CSV file        : results/sample_offline_run/simulation_run_sample.csv
+Total steps     : 1764
+Sim duration    : 112.96 s
+
+-- Navigation --
+Goal            : (+1.770, +1.069)   (success if final goal dist < 0.08 m)
+Start position  : (1.473, -1.107)
+End position    : (1.752, 0.993)
+Final goal dist : 0.078 m
+
+-- Actions --
+  FORWARD   :   965 steps (54.7%)
+  LEFT      :   429 steps (24.3%)
+  RIGHT     :   283 steps (16.0%)
+  STOP      :    74 steps (4.2%)
+  OTHER     :    13 steps (0.7%)
+
+-- ML vs Heuristic --
+  ML decisions       : 1091 (61.8%)
+  Heuristic decisions: 672 (38.1%)
+
+-- Risk Distribution --
+  low       :   319 steps (18.1%)
+  medium    :   875 steps (49.6%)
+  critical  :   570 steps (32.3%)
+
+-- Sensor Stats --
+  Max front IR     : 147.4
+  Max left  IR     : 286.8
+  Max right IR     : 246.1
+  Mean confidence  : 0.900
+============================================================

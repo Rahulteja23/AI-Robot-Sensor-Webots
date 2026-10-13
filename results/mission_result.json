@@ -1,0 +1,19 @@
+{
+  "result": "MISSION SUCCESS - goal reached without collision",
+  "success": true,
+  "mission": {
+    "start": "Cafeteria (Floor 1 (Ground))",
+    "goal": "Ward 302 (Floor 3)",
+    "seed": 659427
+  },
+  "time_to_goal_s": 79.9,
+  "path_length_m": 5.762,
+  "planned_route_m": 6.22,
+  "floors": [
+    1,
+    3
+  ],
+  "collisions": 0,
+  "min_clearance_cm": 2.58,
+  "timestamp": "2026-10-13 22:10:55"
+}

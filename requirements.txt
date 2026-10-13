@@ -1,0 +1,25 @@
+﻿# Requirements for AI-Enhanced Intelligent Sensor System
+# ========================================================
+# The Webots 'controller' module is provided automatically
+# by the Webots runtime -- do NOT install it via pip.
+#
+# Install everything with:
+#   pip install -r requirements.txt
+
+# -- Core Scientific Stack --------------------------------------------------
+numpy>=1.24.0           # Sensor data arrays, matrix operations
+scipy>=1.11.0           # Signal processing, filtering
+
+# -- Machine Learning / AI --------------------------------------------------
+scikit-learn>=1.3.0     # MLPathPlanner (RandomForest) + SVMPlanner (SVM)
+
+# -- Computer Vision --------------------------------------------------------
+Pillow>=10.0.0          # Raw camera bytes -> image
+opencv-python>=4.8.0    # Edge detection, colour segmentation
+
+# -- Data Logging and Reporting ---------------------------------------------
+pandas>=2.0.0           # Post-run CSV analysis
+matplotlib>=3.7.0       # Plot sensor data from CSV results
+
+# -- Utilities --------------------------------------------------------------
+python-dateutil>=2.8    # Timestamp handling in logs

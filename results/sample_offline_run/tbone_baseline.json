@@ -1,0 +1,7 @@
+{
+  "label": "WITHOUT dynamic safety (previous version)",
+  "cases": 112,
+  "collisions": 28,
+  "goal_reached": 112,
+  "closest_approach_cm": -3.7
+}
